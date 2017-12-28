@@ -5,11 +5,22 @@ h1 {
 	padding: 1em;
 	margin: 1em;
 }
-
-@import url('https://fonts.googleapis.com/css?family=Audiowide');
-
+	
 h2 {
-	font-family: 'Audiowide';
-	padding: 0,5em;
-	margin: 0.5em;
+	text-align: center;
+}
+body {
+	background: url("https://cdn.images.express.co.uk/img/dynamic/143/590x/Call-of-Duty-WW2-2017-784833.jpg");
+    background-position: middle;
+	color: black;
+	background-visibility: red;
+	font-family: Arial, sans-serif;
+	background: url("http://media1.gameinformer.com/filestorage/CommunityServer.Components.SiteFiles/imagefeed/featured/microsoft2016/gears-of-war/gears4/screenshotgallery/originals/render_execution_final.jpg");
+	background-position: left;
+	backface-visibility: red;
+	background: url("https://d1wfiv6sf8d64f.cloudfront.net/static/pc/img/visual_main.jpg");
+	background-position: right;
+	
+
+
 }
