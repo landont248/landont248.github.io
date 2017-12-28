@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron|Pangolin');
+
+h1 {
+	font-family: 'Orbitron';
+	padding: 1em;
+	margin: 1em;
+}
+	
+h2 {
+	text-align: center;
+}
