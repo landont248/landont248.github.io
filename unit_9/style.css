@@ -43,7 +43,7 @@ aside {
 }
 
 #two_column {
-	background-color: #1f1e1e;
+	background-color: green;
 	border: 1px black solid;
 	padding: 20px;
 }
@@ -77,7 +77,7 @@ aside {
 	width: auto;
 }
 
-.body {
+.body, html {
 	width: auto;
 }
 
@@ -94,8 +94,8 @@ aside {
 }
 
 .section {
-	width: auto;
-	background-color: #1f1e1e;
+	
+	background-color: green;
 }
 
 .WebContainer{
@@ -108,7 +108,9 @@ aside {
     margin: auto;
 } 
 
-@media only screen and (min-width: 1px and max-width: 10000px) {
-	body { 
+@media only screen and (min-width: 100px) {
+	.section { 
+		float: none;
+		width: auto;
 	}
 }

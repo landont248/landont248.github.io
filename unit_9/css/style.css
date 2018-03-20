@@ -2,6 +2,7 @@
 
 h1  {
 	font-family: 'Orbitron';
+	font-size: 40px;
 	padding: 1em;
 	margin: 1em;
 	text-align: center;
@@ -18,49 +19,49 @@ h2  {
 	font-family: 'Orbitron';
 	padding: 1em;
 	text-align: center;
-
 }
 
 body {
 	background-color: #990000;
 	font-size: 40px;
+}
 
+aside {
+	background-color: #1f1e1e;
 }
 
 #em-unit {
-	background-color: #FF6A5E;
+	background-color: #1f1e1e;
 	width: 1em;
 	height: 1em;
 }
 
 #pixel-unit {
-	background-color: #C05EFF;
+	background-color: #1f1e1e;
 	width: 1em;
 	height: 1em;
 }
 
 #two_column {
-	background-color: #FFB7CF;
+	background-color: #990000;
 	border: 1px black solid;
 	padding: 20px;
 }
 
 #left {
-	background-color: violet;
+	background-color: black;
 	border: 1px black solid;
 	padding: 20px;
 	float: left;
 	width: 30%;
-
 }
 
 #right {
-	background-color: pink;
+	background-color: #1f1e1e;
 	border: 1px black solid;
 	padding: 20px;
 	float: right;
 	width: 40%;
-
 }
 
 .clearfix:after {
@@ -70,21 +71,18 @@ body {
 	content: "";
 	clear: both;
 	height: 0;
-
-
 }
 
 .head {
-	width: 100%;
+	width: auto;
 }
 
-.body {
+.body, html {
 	width: 100%;
 }
 
 .header {
-	width: 100%;
-}
+	width: 100%}
 
 .img {
 	width: 100%;
@@ -95,10 +93,23 @@ body {
 }
 
 .section {
-	width: 100%;
+	
+	background-color: green;
 }
 
-@media only screen and (min-width: 320px and max-width: 768px) {
-	body { 
+.WebContainer{
+    width: 100%;
+    height: auto;
+}
+.articles{
+    width:90%;
+    height: auto;
+    margin: auto;
+} 
+
+@media only screen and (min-width: 100px) {
+	.section { 
+		float: none;
+		width: auto;
 	}
 }
